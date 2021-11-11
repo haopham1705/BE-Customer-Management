@@ -42,7 +42,7 @@ const customers: Customer[] = JSON.parse(
 );
 const states: State[] = JSON.parse(readFileSync('data/states.json', 'utf-8'));
 const users: User[] = JSON.parse(readFileSync('data/users.json', 'utf-8'));
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
