@@ -1,2 +1,4 @@
 # BE-Customer-Management
-NodeJS
+NodeJS - Backend
+Customer management
+Typescript
